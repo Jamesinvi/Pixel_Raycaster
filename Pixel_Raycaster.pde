@@ -34,8 +34,6 @@ void mouseDragged() {
 }
 
 void draw() {
-  saveFrame("line-######.png");
-
   background(25);
 
   mouse.set(mouseX, mouseY);
@@ -70,7 +68,7 @@ void draw() {
     }
   }
   fill(255);
-  //text(frameRate, 30, 30);
+  text(frameRate, 30, 30);
 }
 
 boolean CellIsWall(int index) {
